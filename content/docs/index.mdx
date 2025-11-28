@@ -1,0 +1,154 @@
+---
+title: Introduction
+description: A modern, elegant, and developer-focused UI component library built with Tailwind CSS and Radix UI.
+icon: FolderGit2
+---
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import {
+  Code,
+  Palette,
+  Zap,
+  Blocks,
+  ShieldCheck,
+  Sparkles,
+  Accessibility,
+  Bolt,
+  Moon,
+  Settings,
+  Puzzle,
+  Pallete,
+} from "lucide-react";
+
+Welcome to **Sailark UI** — a modern, elegant, and developer-focused component library for building production-ready interfaces **with power and precision**.  
+Built on top of **Tailwind CSS** and **Radix UI**, it blends **beautiful design**, **accessibility**, and **developer experience** into a seamless workflow.
+
+Whether you’re prototyping a new app or shipping to production, **Harbor UI** gives you everything you need to build fast — and look good doing it.
+
+---
+
+## <ShieldCheck className="inline size-5 text-primary" /> Why Harbor UI?
+
+Mammoth UI is designed for **speed, consistency, and scalability**.  
+No more design struggles or boilerplate chaos — just clean, reusable, and accessible components that _work_.
+
+<div className="grid lg:grid-cols-2 gap-4 mt-6">
+  {/* Card 1 */}
+  <Card className="rounded-2xl border shadow-sm hover:shadow-md transition-all dark:bg-black py-0">
+    <CardContent className="flex flex-col items-start px-5">
+      <img
+        src="/webflow.png"
+        alt="integration icon"
+        className="w-96 object-contain"
+      />
+      <h3 className="font-semibold text-lg">Seamless Integration</h3>
+      <p className="text-sm text-muted-foreground">
+  Effortlessly integrate with your existing website for a smooth, unified experience.  
+  Our system is designed to work seamlessly with modern frameworks and tools, ensuring zero disruption to your current setup.  
+  Enjoy a fast, reliable, and cohesive connection that enhances your workflow and user experience.
+</p>
+    </CardContent>
+  </Card>
+ 
+  {/* Card 2 */}
+  <Card className="rounded-2xl border shadow-sm hover:shadow-md transition-all dark:bg-black py-0">
+    <CardContent className="flex flex-col items-start px-5">
+      <img
+        src="/custom-cd.png"
+        alt="customization icon"
+        className="w-96 object-contain"
+      />
+      <h3 className="font-semibold text-lg">Tailor It Your Way</h3>
+      <p className="text-sm text-muted-foreground">
+  Customize every detail to match your brand — from design to functionality, make it uniquely yours.  
+  Adjust layouts, colors, and components effortlessly to reflect your identity and style.  
+  Build an experience that feels personal, distinctive, and perfectly aligned with your vision.
+</p>
+
+    </CardContent>
+  </Card>
+</div>
+
+---
+
+## <Sparkles className="inline size-5 mr-2 text-primary" /> Key Features
+
+<div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
+  <div className="flex items-start gap-3 p-3 rounded-xl border hover:shadow-sm transition-all dark:bg-black/40">
+    <Palette className="size-15 mt-1 text-primary" />
+    <div>
+      <h4 className="font-semibold">Tailwind + Radix Foundation</h4>
+      <p className="text-sm text-muted-foreground">
+        Built using Tailwind CSS and Radix primitives for flexibility, style consistency, and accessibility.
+      </p>
+    </div>
+  </div>
+
+{" "}
+<div className="flex items-start gap-3 p-3 rounded-xl border hover:shadow-sm transition-all dark:bg-black/40">
+  <Settings className="size-15 mt-1 text-primary" />
+  <div>
+    <h4 className="font-semibold">ShadCN-Compatible Structure</h4>
+    <p className="text-sm text-muted-foreground">
+      Follows the same structure as ShadCN UI, making it easy to mix or migrate
+      components with minimal setup.
+    </p>
+  </div>
+</div>
+
+{" "}
+<div className="flex items-start gap-3 p-3 rounded-xl border hover:shadow-sm transition-all dark:bg-black/40">
+  <Puzzle className="size-15 mt-1 text-primary" />
+  <div>
+    <h4 className="font-semibold">Composable & Flexible</h4>
+    <p className="text-sm text-muted-foreground">
+      Every component is modular and reusable — build UIs your way without
+      losing design harmony.
+    </p>
+  </div>
+</div>
+
+{" "}
+<div className="flex items-start gap-3 p-3 rounded-xl border hover:shadow-sm transition-all dark:bg-black/40">
+  <Moon className="size-15 mt-1 text-primary" />
+  <div>
+    <h4 className="font-semibold">Dark Mode & Theming</h4>
+    <p className="text-sm text-muted-foreground">
+      Fully supports dark mode and theme customization out of the box using CSS
+      variables and Tailwind tokens.
+    </p>
+  </div>
+</div>
+
+{" "}
+<div className="flex items-start gap-3 p-3 rounded-xl border hover:shadow-sm transition-all dark:bg-black/40">
+  <Accessibility className="size-15 mt-1 text-primary" />
+  <div>
+    <h4 className="font-semibold">Accessible by Default</h4>
+    <p className="text-sm text-muted-foreground">
+      Includes keyboard support, focus states, and ARIA attributes —
+      accessibility without the extra effort.
+    </p>
+  </div>
+</div>
+
+  <div className="flex items-start gap-3 p-3 rounded-xl border hover:shadow-sm transition-all dark:bg-black/40">
+    <Bolt className="size-15 mt-1 text-primary" />
+    <div>
+      <h4 className="font-semibold">Next.js & Vite Ready</h4>
+      <p className="text-sm text-muted-foreground">
+        Works out-of-the-box with modern frameworks like Next.js and Vite — just install and start building.
+      </p>
+    </div>
+  </div>
+</div>
+
+---
+
+## Getting Started
+
+You can install Harbor UI in seconds using the CLI:
+
+```bash
+npx shadcn@latest add ui.harborui.dev/button
+```

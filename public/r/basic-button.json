@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "basic-button",
+  "type": "registry:component",
+  "registryDependencies": [
+    "button"
+  ],
+  "files": [
+    {
+      "path": "components/harborui/button/btn-basic.tsx",
+      "content": "import { Button } from '@/components/ui/button'\r\nimport React from 'react'\r\n\r\n\r\nfunction BasicButton() {\r\n  return (\r\n    <Button>Button</Button>\r\n  )\r\n}\r\n\r\nexport default BasicButton",
+      "type": "registry:component",
+      "target": "components/harborui/button-basic.tsx"
+    }
+  ]
+}

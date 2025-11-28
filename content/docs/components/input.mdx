@@ -1,0 +1,82 @@
+---
+title: Input
+description: A flexible and accessible input component with support for icons, labels, and various styles.
+icon: TextCursorInput
+---
+
+---
+
+### Input with icon
+
+import Input01 from "@/components/harborui/input/input-01";
+
+```bash
+npx shadcn@latest add http://localhost:3000/r/input-01.json
+```
+
+<Preview link="input/input-01">
+  <Input01 />
+</Preview>
+
+```tsx
+import Input01 from "@/components/harborui/input-01";
+```
+
+```tsx
+<Input01 />
+```
+
+---
+
+### Input with end add-on
+
+import Input02 from "@/components/harborui/input/input-02";
+
+```bash
+npx shadcn@latest add http://localhost:3000/r/input-02.json
+```
+
+<Preview link="input/input-02">
+  <Input02 />
+</Preview>
+
+```tsx
+import Input02 from "@/components/harborui/input-02";
+```
+
+```tsx
+<Input02 />
+```
+
+---
+
+### Input with password strength indicator
+
+import Input03 from "@/components/harborui/input/input-03";
+
+```bash
+npx shadcn@latest add http://localhost:3000/r/input-03.json
+```
+
+<Preview link="input/input-03">
+  <Input03 />
+</Preview>
+
+```tsx
+import Input03 from "@/components/harborui/input-03";
+```
+
+```tsx
+<Input03 />
+```
+
+---
+
+## Props
+
+| Property    | Type                                           | Default     | Description |
+|-------------|------------------------------------------------|-------------|-------------|
+| `type`      | `string`                                       | `"text"`    | Sets the input type (e.g., `"text"`, `"email"`, `"password"`). |
+| `className` | `string`                                       | `undefined` | Additional CSS classes to style or override default styles. |
+| `...props`  | `InputHTMLAttributes<HTMLInputElement>`        | —           | All native input attributes like `value`, `placeholder`, `onChange`, etc. |
+

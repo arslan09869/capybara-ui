@@ -1,0 +1,112 @@
+---
+title: Installation
+description: Choose your framework to get started.
+icon: Package
+---
+
+import { Card, CardContent } from "@/components/ui/card";
+import Image from "next/image";
+
+
+<div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
+
+  {/* Next.js */}
+  <a href="/docs/installation/nextjs">
+    <Card className="hover:shadow-md transition-all cursor-pointer">
+      <CardContent className="flex flex-col items-center gap-4 p-6">
+        <Image
+          src="/frameworks/nextjs_icon_dark.svg"
+          alt="Next.js"
+          width={60}
+          height={60}
+        />
+        <p className="font-medium">Next.js</p>
+      </CardContent>
+    </Card>
+  </a>
+
+  {/* Vite */}
+  <a href="/docs/installation/vite">
+    <Card className="hover:shadow-md transition-all cursor-pointer">
+      <CardContent className="flex flex-col items-center gap-4 p-6">
+        <Image
+          src="/frameworks/vitejs.svg"
+          alt="Vite"
+          width={60}
+          height={60}
+        />
+        <p className="font-medium">Vite</p>
+      </CardContent>
+    </Card>
+  </a>
+
+  {/* Laravel */}
+  <a href="/docs/installation/laravel">
+    <Card className="hover:shadow-md transition-all cursor-pointer">
+      <CardContent className="flex flex-col items-center gap-4 p-6">
+        <Image
+          src="/frameworks/laravel.svg"
+          alt="React"
+          width={60}
+          height={60}
+        />
+        <p className="font-medium">Laravel</p>
+      </CardContent>
+    </Card>
+  </a>
+
+  {/* Astro */}
+  <a href="/docs/installation/astro">
+    <Card className="hover:shadow-md transition-all cursor-pointer">
+      <CardContent className="flex flex-col items-center gap-4 p-6">
+        <Image
+          src="/frameworks/astro_dark.svg"
+          alt="Astro"
+          width={60}
+          height={60}
+        />
+        <p className="font-medium">Astro</p>
+      </CardContent>
+    </Card>
+  </a>
+
+  {/* Remix */}
+  <a href="/docs/installation/remix">
+    <Card className="hover:shadow-md transition-all cursor-pointer">
+      <CardContent className="flex flex-col items-center gap-4 p-6">
+        <Image
+          src="/frameworks/remix_dark.svg"
+          alt="Remix"
+          width={60}
+          height={60}
+        />
+        <p className="font-medium">Remix</p>
+      </CardContent>
+    </Card>
+  </a>
+
+  {/* Tanstack */}
+  <a href="/docs/installation/tanstack">
+    <Card className="hover:shadow-md transition-all cursor-pointer">
+      <CardContent className="flex flex-col items-center gap-4 p-6">
+        <Image
+          src="/frameworks/tanstack.svg"
+          alt="Svelte"
+          width={60}
+          height={60}
+        />
+        <p className="font-medium">Svelte</p>
+      </CardContent>
+    </Card>
+  </a>
+
+</div>
+
+---
+
+# CLI Installation
+
+Install Harbor UI into any project using our ShadCN-compatible CLI:
+
+```bash
+npx shadcn@latest add https://ui.harborui.dev/r/utils.json

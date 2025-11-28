@@ -1,0 +1,129 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "harborui",
+  "homepage": "http://localhost:3000",
+  "items": [
+    {
+        "name": "basic-button",
+        "registryDependencies": ["button"],
+        "type": "registry:component",
+        "files": [
+          {
+            "path": "components/harborui/button/btn-basic.tsx",
+            "type": "registry:component",
+            "target": "components/harborui/button-basic.tsx"
+          }
+        ]
+    },
+    {
+        "name": "button-loading",
+        "registryDependencies": ["button"],
+        "type": "registry:component",
+        "files": [
+          {
+            "path": "components/harborui/button/btn-loading.tsx",
+            "type": "registry:component",
+            "target": "components/harborui/button-loading.tsx"
+          }
+        ]
+    },
+    {
+        "name": "button-archive",
+        "registryDependencies": ["button"],
+        "type": "registry:component",
+        "files": [
+          {
+            "path": "components/harborui/button/btn-archive.tsx",
+            "type": "registry:component",
+            "target": "components/harborui/button-archive.tsx"
+          }
+        ]
+    },
+    {
+        "name": "button-count",
+        "registryDependencies": ["button"],
+        "type": "registry:component",
+        "files": [
+          {
+            "path": "components/harborui/button/btn-count.tsx",
+            "type": "registry:component",
+            "target": "components/harborui/button-count.tsx"
+          }
+        ]
+    },
+    {
+        "name": "button-delete",
+        "registryDependencies": ["button"],
+        "type": "registry:component",
+        "files": [
+          {
+            "path": "components/harborui/button/btn-delete.tsx",
+            "type": "registry:component",
+            "target": "components/harborui/button-delete.tsx"
+          }
+        ]
+    },
+    {
+        "name": "menu-button",
+        "registryDependencies": ["button"],
+        "type": "registry:component",
+        "files": [
+          {
+            "path": "components/harborui/button/menu-btn.tsx",
+            "type": "registry:component",
+            "target": "components/harborui/menu-button.tsx"
+          }
+        ]
+    },
+    {
+        "name": "remote-button",
+        "registryDependencies": ["button"],
+        "type": "registry:component",
+        "files": [
+          {
+            "path": "components/harborui/button/remote-btn.tsx",
+            "type": "registry:component",
+            "target": "components/harborui/remote-button.tsx"
+          }
+        ]
+    },
+    {
+        "name": "input-01",
+        "registryDependencies": ["input", "label"],
+        "dependencies": ["lucide-react"],
+        "type": "registry:component",
+        "files": [
+          {
+            "path": "components/harborui/input/input-01.tsx",
+            "type": "registry:component",
+            "target": "components/harborui/input-01.tsx"
+          }
+        ]
+    },
+    {
+        "name": "input-02",
+        "registryDependencies": ["input", "label"],
+        "type": "registry:component",
+        "files": [
+          {
+            "path": "components/harborui/input/input-02.tsx",
+            "type": "registry:component",
+            "target": "components/harborui/input-02.tsx"
+          }
+        ]
+    },
+    {
+        "name": "input-03",
+        "registryDependencies": ["input", "label"],
+        "dependencies": ["lucide-react"],
+        "type": "registry:component",
+        "files": [
+          {
+            "path": "components/harborui/input/input-03.tsx",
+            "type": "registry:component",
+            "target": "components/harborui/input-03.tsx"
+          }
+        ]
+    }
+  ]
+}

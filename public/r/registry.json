@@ -1,6 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
-  "name": "harborui",
+  "name": "capybaraui",
   "homepage": "http://localhost:3000",
   "items": [
     {
@@ -9,9 +9,9 @@
         "type": "registry:component",
         "files": [
           {
-            "path": "components/harborui/button/btn-basic.tsx",
+            "path": "components/capybaraui/button/btn-basic.tsx",
             "type": "registry:component",
-            "target": "components/harborui/button-basic.tsx"
+            "target": "components/capybaraui/button-basic.tsx"
           }
         ]
     },
@@ -21,9 +21,9 @@
         "type": "registry:component",
         "files": [
           {
-            "path": "components/harborui/button/btn-loading.tsx",
+            "path": "components/capybaraui/button/btn-loading.tsx",
             "type": "registry:component",
-            "target": "components/harborui/button-loading.tsx"
+            "target": "components/capybaraui/button-loading.tsx"
           }
         ]
     },
@@ -33,9 +33,9 @@
         "type": "registry:component",
         "files": [
           {
-            "path": "components/harborui/button/btn-archive.tsx",
+            "path": "components/capybaraui/button/btn-archive.tsx",
             "type": "registry:component",
-            "target": "components/harborui/button-archive.tsx"
+            "target": "components/capybaraui/button-archive.tsx"
           }
         ]
     },
@@ -45,9 +45,9 @@
         "type": "registry:component",
         "files": [
           {
-            "path": "components/harborui/button/btn-count.tsx",
+            "path": "components/capybaraui/button/btn-count.tsx",
             "type": "registry:component",
-            "target": "components/harborui/button-count.tsx"
+            "target": "components/capybaraui/button-count.tsx"
           }
         ]
     },
@@ -57,9 +57,9 @@
         "type": "registry:component",
         "files": [
           {
-            "path": "components/harborui/button/btn-delete.tsx",
+            "path": "components/capybaraui/button/btn-delete.tsx",
             "type": "registry:component",
-            "target": "components/harborui/button-delete.tsx"
+            "target": "components/capybaraui/button-delete.tsx"
           }
         ]
     },
@@ -69,9 +69,9 @@
         "type": "registry:component",
         "files": [
           {
-            "path": "components/harborui/button/menu-btn.tsx",
+            "path": "components/capybaraui/button/menu-btn.tsx",
             "type": "registry:component",
-            "target": "components/harborui/menu-button.tsx"
+            "target": "components/capybaraui/menu-button.tsx"
           }
         ]
     },
@@ -81,9 +81,9 @@
         "type": "registry:component",
         "files": [
           {
-            "path": "components/harborui/button/remote-btn.tsx",
+            "path": "components/capybaraui/button/remote-btn.tsx",
             "type": "registry:component",
-            "target": "components/harborui/remote-button.tsx"
+            "target": "components/capybaraui/remote-button.tsx"
           }
         ]
     },
@@ -94,9 +94,9 @@
         "type": "registry:component",
         "files": [
           {
-            "path": "components/harborui/input/input-01.tsx",
+            "path": "components/capybaraui/input/input-01.tsx",
             "type": "registry:component",
-            "target": "components/harborui/input-01.tsx"
+            "target": "components/capybaraui/input-01.tsx"
           }
         ]
     },
@@ -106,9 +106,9 @@
         "type": "registry:component",
         "files": [
           {
-            "path": "components/harborui/input/input-02.tsx",
+            "path": "components/capybaraui/input/input-02.tsx",
             "type": "registry:component",
-            "target": "components/harborui/input-02.tsx"
+            "target": "components/capybaraui/input-02.tsx"
           }
         ]
     },
@@ -119,9 +119,9 @@
         "type": "registry:component",
         "files": [
           {
-            "path": "components/harborui/input/input-03.tsx",
+            "path": "components/capybaraui/input/input-03.tsx",
             "type": "registry:component",
-            "target": "components/harborui/input-03.tsx"
+            "target": "components/capybaraui/input-03.tsx"
           }
         ]
     }

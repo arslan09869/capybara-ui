@@ -7,10 +7,10 @@
   ],
   "files": [
     {
-      "path": "components/harborui/button/remote-btn.tsx",
+      "path": "components/capybaraui/button/remote-btn.tsx",
       "content": "import {\r\n  ChevronDownIcon,\r\n  ChevronLeftIcon,\r\n  ChevronRightIcon,\r\n  ChevronUpIcon,\r\n  CircleIcon,\r\n} from \"lucide-react\";\r\nimport { Button } from '@/components/ui/button'\r\n\r\nexport default function RemoteButton() {\r\n  return (\r\n    <div className=\"inline-grid w-fit grid-cols-3 gap-1\">\r\n      <Button\r\n        className=\"col-start-2\"\r\n        variant=\"outline\"\r\n        size=\"icon\"\r\n        aria-label=\"Pan camera up\"\r\n      >\r\n        <ChevronUpIcon size={16} aria-hidden=\"true\" />\r\n      </Button>\r\n      <Button\r\n        className=\"col-start-1\"\r\n        variant=\"outline\"\r\n        size=\"icon\"\r\n        aria-label=\"Pan camera left\"\r\n      >\r\n        <ChevronLeftIcon size={16} aria-hidden=\"true\" />\r\n      </Button>\r\n      <div className=\"flex items-center justify-center\" aria-hidden=\"true\">\r\n        <CircleIcon className=\"opacity-60\" size={16} />\r\n      </div>\r\n      <Button variant=\"outline\" size=\"icon\" aria-label=\"Pan camera right\">\r\n        <ChevronRightIcon size={16} aria-hidden=\"true\" />\r\n      </Button>\r\n      <Button\r\n        className=\"col-start-2\"\r\n        variant=\"outline\"\r\n        size=\"icon\"\r\n        aria-label=\"Pan camera down\"\r\n      >\r\n        <ChevronDownIcon size={16} aria-hidden=\"true\" />\r\n      </Button>\r\n    </div>\r\n  )\r\n}\r\n",
       "type": "registry:component",
-      "target": "components/harborui/remote-button.tsx"
+      "target": "components/capybaraui/remote-button.tsx"
     }
   ]
 }

@@ -7,10 +7,10 @@
   ],
   "files": [
     {
-      "path": "components/harborui/button/menu-btn.tsx",
+      "path": "components/capybaraui/button/menu-btn.tsx",
       "content": "\"use client\";\r\nimport React from \"react\";\r\nimport { Button } from '@/components/ui/button'\r\nimport { useState } from \"react\";\r\n\r\n\r\nfunction MenuButton() {\r\n  const [open, setOpen] = useState(false);\r\n  return (\r\n    <Button\r\n      className=\"group\"\r\n      variant=\"outline\"\r\n      size=\"icon\"\r\n      onClick={() => setOpen((prevState) => !prevState)}\r\n      aria-expanded={open}\r\n      aria-label={open ? \"Close menu\" : \"Open menu\"}\r\n    >\r\n      <svg\r\n        className=\"pointer-events-none\"\r\n        width={16}\r\n        height={16}\r\n        viewBox=\"0 0 24 24\"\r\n        fill=\"none\"\r\n        stroke=\"currentColor\"\r\n        strokeWidth=\"2\"\r\n        strokeLinecap=\"round\"\r\n        strokeLinejoin=\"round\"\r\n        xmlns=\"http://www.w3.org/2000/svg\"\r\n      >\r\n        <path\r\n          d=\"M4 12L20 12\"\r\n          className=\"origin-center -translate-y-[7px] transition-all duration-300 ease-[cubic-bezier(.5,.85,.25,1.1)] group-aria-expanded:translate-x-0 group-aria-expanded:translate-y-0 group-aria-expanded:rotate-[315deg]\"\r\n        />\r\n        <path\r\n          d=\"M4 12H20\"\r\n          className=\"origin-center transition-all duration-300 ease-[cubic-bezier(.5,.85,.25,1.8)] group-aria-expanded:rotate-45\"\r\n        />\r\n        <path\r\n          d=\"M4 12H20\"\r\n          className=\"origin-center translate-y-[7px] transition-all duration-300 ease-[cubic-bezier(.5,.85,.25,1.1)] group-aria-expanded:translate-y-0 group-aria-expanded:rotate-[135deg]\"\r\n        />\r\n      </svg>\r\n    </Button>\r\n  );\r\n}\r\n\r\nexport default MenuButton;\r\n",
       "type": "registry:component",
-      "target": "components/harborui/menu-button.tsx"
+      "target": "components/capybaraui/menu-button.tsx"
     }
   ]
 }

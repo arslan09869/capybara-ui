@@ -7,10 +7,10 @@
   ],
   "files": [
     {
-      "path": "components/harborui/button/btn-archive.tsx",
+      "path": "components/capybaraui/button/btn-archive.tsx",
       "content": "import React from \"react\";\r\nimport { ArchiveIcon } from \"lucide-react\";\r\nimport { Button } from \"@/components/ui/button\";\r\n\r\nexport default function ArchiveButton() {\r\n  return (\r\n    <Button>\r\n      <ArchiveIcon size={16} aria-hidden=\"true\" />\r\n      Archive\r\n    </Button>\r\n  );\r\n}",
       "type": "registry:component",
-      "target": "components/harborui/button-archive.tsx"
+      "target": "components/capybaraui/button-archive.tsx"
     }
   ]
 }

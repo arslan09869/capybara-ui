@@ -38,31 +38,33 @@ export function GridBackground() {
       <div className="pointer-events-none absolute inset-0 bg-white dark:bg-black [mask-image:radial-gradient(circle,transparent_10%,black)]"></div>
 
       {/* HERO CONTENT */}
-      <div className="w-full flex flex-col md:flex-row items-center justify-center sm:gap-12 gap-8 px-6 sm:px-12 lg:px-24 py-24 relative z-20">
+      <div className="w-full flex items-center sm:gap-12 gap-8 px-6 sm:px-12 lg:px-24 py-24 relative z-20">
         {/* Left */}
-        <div className="w-full md:w-1/2 space-y-6 text-center md:text-left">
+        <div className="w-full lg:w-1/2 space-y-6 text-center lg:text-left">
           <h1 className="text-4xl sm:text-6xl leading-tight bg-gradient-to-b from-neutral-900 to-neutral-600 bg-clip-text text-transparent dark:from-white dark:to-neutral-400">
             Capybara
             <br />
             Component Library
           </h1>
 
-          <p className="text-zinc-700 dark:text-zinc-300 text-base sm:text-lg max-w-lg mx-auto md:mx-0">
+          <p className="text-zinc-700 dark:text-zinc-300 text-center lg:text-left text-base sm:text-lg max-w-lg mx-auto lg:mx-0">
             Build premium-quality UIs instantly with beautiful and reusable
             components — just plug and play.
           </p>
 
-          <div className="flex justify-center md:justify-start gap-x-12">
+          <div className="flex justify-center lg:justify-start gap-x-12">
             <BorderButton title={"Explore components"} />
             <BorderButton title={"Join the Capybara UI"} />
           </div>
         </div>
 
         {/* Right */}
-        <div className="w-full md:w-1/2 h-[300px] sm:h-[380px] md:h-[520px] relative">
-        <div className="absolute top-20"><ConcentricDots/></div>
-        <img src="/1000055686-Photoroom.png" alt="img" className="absolute" />
-          {/* <Spline scene="https://prod.spline.design/pY7NrYWVIraGIPBt/scene.splinecode" /> */}
+        <div className="w-full hidden lg:block lg:w-1/2 h-[300px] sm:h-[380px] md:h-[520px] relative">
+          <div className="absolute top-20">
+            <ConcentricDots />
+          </div>
+
+          <img src="/1000055686-Photoroom.png" alt="img" className="absolute" />
         </div>
       </div>
 
@@ -128,7 +130,7 @@ export function GridBackground() {
         <div className="w-full mt-10">
           <Footer />
         </div>
-         {/* <RotatingEarth width={700} height={500}/> */}
+        {/* <RotatingEarth width={700} height={500}/> */}
       </section>
     </div>
   );

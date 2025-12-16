@@ -8,10 +8,10 @@
   ],
   "files": [
     {
-      "path": "components/harborui/input/input-02.tsx",
-      "content": "import { useId } from \"react\"\r\n\r\nimport { Input } from \"@/components/ui/input\"\r\nimport { Label } from \"@/components/ui/label\"\r\n\r\nexport default function Input02() {\r\n  const id = useId()\r\n  return (\r\n    <div className=\"*:not-first:mt-2\">\r\n      <Label htmlFor={id}>Input with end add-on</Label>\r\n      <div className=\"flex rounded-md shadow-xs\">\r\n        <Input\r\n          id={id}\r\n          className=\"-me-px rounded-e-none shadow-none focus:outline-none\"\r\n          placeholder=\"google\"\r\n          type=\"text\"\r\n        />\r\n        <span className=\"inline-flex items-center rounded-e-md border border-input bg-background px-3 text-sm dark:text-white text-black\">\r\n          .com\r\n        </span>\r\n      </div>\r\n    </div>\r\n  )\r\n}\r\n",
+      "path": "components/capybaraui/input/input-02.tsx",
+      "content": "import { useId } from \"react\"\r\n\r\nimport { Input } from \"@/components/ui/input\"\r\nimport { Label } from \"@/components/ui/label\"\r\n\r\nexport default function Input02() {\r\n  const id = useId()\r\n  return (\r\n    <div className=\"*:not-first:mt-2\">\r\n      <Label htmlFor={id}>Input with end add-on</Label>\r\n      <div className=\"flex rounded-md shadow-xs\">\r\n        <Input\r\n          id={id}\r\n          className=\"-me-px rounded-e-none shadow-none \r\n             focus-visible:ring-0 focus-visible:ring-offset-0 \r\n             focus:outline-none focus:border-0\"\r\n          placeholder=\"google\"\r\n          type=\"text\"\r\n        />\r\n        <span className=\"inline-flex items-center rounded-e-md border border-input bg-background px-3 text-sm dark:text-white text-black\">\r\n          .com\r\n        </span>\r\n      </div>\r\n    </div>\r\n  )\r\n}\r\n",
       "type": "registry:component",
-      "target": "components/harborui/input-02.tsx"
+      "target": "components/capybaraui/input-02.tsx"
     }
   ]
 }

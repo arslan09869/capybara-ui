@@ -7,10 +7,10 @@
   ],
   "files": [
     {
-      "path": "components/harborui/button/btn-loading.tsx",
+      "path": "components/capybaraui/button/btn-loading.tsx",
       "content": "import React from \"react\";\r\nimport { Button } from '@/components/ui/button'\r\nimport { LoaderCircleIcon } from \"lucide-react\";\r\n\r\nexport default function LoadingButton() {\r\n  return (\r\n    <Button disabled>\r\n      <LoaderCircleIcon size={16} aria-hidden=\"true\" className=\"animate-spin\" />\r\n      Loading\r\n    </Button>\r\n  );\r\n}\r\n",
       "type": "registry:component",
-      "target": "components/harborui/button-loading.tsx"
+      "target": "components/capybaraui/button-loading.tsx"
     }
   ]
 }

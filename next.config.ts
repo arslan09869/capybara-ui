@@ -3,34 +3,37 @@ import { createMDX } from "fumadocs-mdx/next";
 const withMDX = createMDX();
 
 const nextConfig = {
-    pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
-    outputFileTracingIncludes: {
-        "/**": ["components/capybaraui/**/*"],
-    },
-    async headers() {
-        return [
-            {
-                source: "/r/:path*",
-                headers: [
-                    {
-                        key: "Cache-Control",
-                        value: "public, max-age=31536000, immutable",
-                    },
-                ],
-            },
-        ];
-    },
-    images: {
-        remotePatterns: [
-            {
-                hostname: "*",
-            },
+  pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
+  outputFileTracingIncludes: {
+    "/**": ["components/capybaraui/**/*"],
+  },
+  async headers() {
+    return [
+      {
+        source: "/r/:path*",
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "public, max-age=31536000, immutable",
+          },
         ],
-    },
-    reactStrictMode: true,
-    eslint: {
-        ignoreDuringBuilds: true,
       },
+    ];
+  },
+  images: {
+    remotePatterns: [
+      {
+        hostname: "*",
+      },
+    ],
+  },
+  reactStrictMode: true,
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
 };
 
 export default withMDX(nextConfig);

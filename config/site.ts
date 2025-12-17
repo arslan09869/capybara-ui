@@ -1,5 +1,5 @@
 export const siteConfig = {
-    name: "HarborUI",
+    name: "CapybaraUI",
     url: "http://localhost:3000",
     ogImage: "#",
     description:

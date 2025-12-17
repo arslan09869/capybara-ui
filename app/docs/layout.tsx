@@ -7,8 +7,8 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: {
     template:
-      "%s | HarborUI - Free UI Components to build beautiful websites",
-    default: "HarborUI - Free UI Components to build beautiful websites",
+      "%s | CapybaraUI - Free UI Components to build websites",
+    default: "CapybaraUI - Free UI Components to build websites",
   },
 };
 

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Sniglet,Inter } from "next/font/google";
 
 
-const sniglet = Inter({
+const sniglet = Sniglet({
   subsets: ["latin"],
   weight: ["400"],
 });

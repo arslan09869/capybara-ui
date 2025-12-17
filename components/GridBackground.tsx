@@ -90,7 +90,7 @@ export function GridBackground() {
           <div className="w-full md:w-2/3">
             <div className="overflow-hidden ">
               <Image
-                src="/templates/9fbd10011464121479df2cbaff2b8a73.png"
+                src="/templates/templ.png"
                 width={1200}
                 height={800}
                 alt="Templates Preview"

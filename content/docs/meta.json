@@ -5,7 +5,6 @@
     "root": true,
     "defaultOpen": true,
     "pages": [
-        "---Get Started---",
         "index",
         "installation",
         "components"
